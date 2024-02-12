@@ -25,3 +25,5 @@
 serie6.exo_11();
 serie6.exo_12();
 serie6.exo_13();
+
+serie6.exo_21();

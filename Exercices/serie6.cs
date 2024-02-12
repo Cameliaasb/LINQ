@@ -1,3 +1,5 @@
+using System.Runtime.CompilerServices;
+
 public class serie6 {
   class Personne{
     public string Nom{ get ; set ; }
@@ -74,6 +76,21 @@ public class serie6 {
       foreach (var p in subgroup)
       {
         Console.WriteLine($"{p.Nom}");
+      }
+    }
+  }
+
+
+  static List<int> nombres = new List<int>() { 1, 2, 3, 4, 5, 6, 7, 8, 9, 20, 11, 13, 12, 14, 18, 17, 16, 14, 14 };
+
+  static public void exo_21(){
+    var groups = nombres.Select( n => new {nb = n, pair = (n % 2 == 0)} ).GroupBy(p=> p.pair);
+    foreach (var group in groups)
+    {
+      var subgroup = group.Select(n => n);
+      foreach (var n in subgroup)
+      {
+        Console.WriteLine($"{n.nb} - {(n.pair? "pair" : "impair" ) }");
       }
     }
   }
