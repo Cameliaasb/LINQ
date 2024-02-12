@@ -87,10 +87,11 @@ public class serie6 {
     var groups = nombres.Select( n => new {nb = n, pair = (n % 2 == 0)} ).GroupBy(p=> p.pair);
     foreach (var group in groups)
     {
+      Console.WriteLine(group.Key ? "Pair" : "Impair");
       var subgroup = group.Select(n => n);
       foreach (var n in subgroup)
       {
-        Console.WriteLine($"{n.nb} - {(n.pair? "pair" : "impair" ) }");
+        Console.WriteLine(n.nb);
       }
     }
   }
