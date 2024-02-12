@@ -16,6 +16,12 @@
 // serie4.exo_2();
 
 
-// serie 5
-serie5.exo_1();
-serie5.exo_2();
+// // serie 5
+// serie5.exo_1();
+// serie5.exo_2();
+
+
+// Serie 6
+serie6.exo_11();
+serie6.exo_12();
+serie6.exo_13();
