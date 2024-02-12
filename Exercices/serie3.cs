@@ -48,6 +48,7 @@ class serie3 {
     Console.WriteLine("Les ingénieurs : ");
     foreach (var p in ingenieurs)
     {
+      new Ingenieur(p.Nom, p.Prenom);
       Console.WriteLine($"{p.Prenom} {p.Nom}");
     }
   }
@@ -57,6 +58,7 @@ class serie3 {
       Console.WriteLine("Les techniciens : ");
       foreach (var p in techniciens)
       {
+        new Technicien(p.Nom, p.Prenom);
         Console.WriteLine($"{p.Prenom} {p.Nom}");
       }
   }
