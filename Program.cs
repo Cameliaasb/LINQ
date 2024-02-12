@@ -8,5 +8,9 @@
 // serie2.Exo();
 
 // Serie 3
-serie3.showIngenieurs();
-serie3.showTechniciens();
+// serie3.showIngenieurs();
+// serie3.showTechniciens();
+
+// Serie 4
+serie4.exo_1();
+serie4.exo_2();
