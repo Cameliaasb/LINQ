@@ -5,5 +5,8 @@
 // serie1.exercice_2();
 
 // // Serie 2
+// serie2.Exo();
 
-serie2.Exo();
+// Serie 3
+serie3.showIngenieurs();
+serie3.showTechniciens();
