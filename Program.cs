@@ -11,6 +11,11 @@
 // serie3.showIngenieurs();
 // serie3.showTechniciens();
 
-// Serie 4
-serie4.exo_1();
-serie4.exo_2();
+// // Serie 4
+// serie4.exo_1();
+// serie4.exo_2();
+
+
+// serie 5
+serie5.exo_1();
+serie5.exo_2();
